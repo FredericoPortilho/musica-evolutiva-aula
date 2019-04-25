@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="musicEvoV4MelodiaTamVar" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/musicEvoV4MelodiaTamVar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/musicEvoV4MelodiaTamVar" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="EA.h" />
+		<Unit filename="EA.hpp" />
+		<Unit filename="affective.cpp" />
+		<Unit filename="affective.h" />
+		<Unit filename="island2_EA.h" />
+		<Unit filename="island2_EA.hpp" />
+		<Unit filename="island_EA.h" />
+		<Unit filename="island_EA.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="melodia.cpp" />
+		<Unit filename="melodia.h" />
+		<Unit filename="naive_EA.h" />
+		<Unit filename="naive_EA.hpp" />
+		<Unit filename="parameter_control2_EA.h" />
+		<Unit filename="parameter_control2_EA.hpp" />
+		<Unit filename="parameter_control_EA.h" />
+		<Unit filename="parameter_control_EA.hpp" />
+		<Unit filename="selection_EA.h" />
+		<Unit filename="selection_EA.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
